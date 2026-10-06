@@ -28,7 +28,7 @@ The colorful iMacs (2021 and 2024) and the MacBook Neo come with accent colors m
 
 All the system and hardware accents in one window. Hover a color to preview it on a copy of the System Settings panel and on common controls; click it to apply.
 
-**Requirements:** macOS 14 Sonoma or later, on a Mac with Apple silicon.
+**Requirements:** macOS 14 Sonoma or later, on any Mac (Apple silicon or Intel).
 
 ### Install
 
@@ -84,10 +84,10 @@ git clone https://github.com/lucasaym/macos-accent-colors.git
 cd macos-accent-colors && bash build.sh --install
 ```
 
-**Without git:** download **Source code (zip)** from the [latest release](https://github.com/lucasaym/macos-accent-colors/releases/latest), unzip it into your **Downloads** folder, then run (with the version you downloaded):
+**Without git:** download **Source code (zip)** from the [latest release](https://github.com/lucasaym/macos-accent-colors/releases/latest) and unzip it. In Terminal, type `cd ` (with a space), drag the unzipped folder onto the Terminal window, press Enter, then run:
 
 ```bash
-cd ~/Downloads/macos-accent-colors-1.0.0 && bash build.sh --install
+bash build.sh --install
 ```
 
 The script compiles the app, installs **Accent Picker** into Applications and opens it. It ends with *Done ✔ Installed in /Applications/Accent Picker.app*. An app you build yourself opens without the "Open Anyway" step.
